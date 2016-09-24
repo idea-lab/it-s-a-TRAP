@@ -1,0 +1,23 @@
+var thing;
+var enemy;
+var player;
+var cursors;
+var lKey;
+var aKey;
+var wKey;
+var dKey;
+var fKey;
+var bg;
+var egrounded = true;
+var grounded = true;
+var health = 100;
+var ehealth = 100;
+var dead;
+var edead;
+var music = Phaser.Sound;
+var coolDown = 0;
+var ecoolDown = 0;
+var landMine;
+var grenades;
+var grenadeTime = 0;
+
